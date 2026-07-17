@@ -1,0 +1,14 @@
+;; data/culture-tx.edn — DataScript tx-data derived from src/culture/facts.cljc
+;; `culture.facts/catalog` (ADR-2607171400 addendum 2, Wave 1 country-level).
+;; Same shape across every cloud-itonami-iso3166-* sibling. Do not hand-edit;
+;; regenerate from the catalog.
+
+[
+#:culture{:id "bhs.dish.conch", :name "Conch", :country "BHS", :kind :dish, :summary "Large tropical mollusk with firm, white flesh; the national dish of the Bahamas, prepared as conch salad, cracked conch, conch fritters and conch chowder.", :url "https://en.wikipedia.org/wiki/Bahamian_cuisine", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "bhs.dish.peas-and-rice", :name "Peas and rice", :country "BHS", :kind :dish, :summary "Staple of Bahamian cuisine, listed among the islands' everyday dishes alongside soups served with johnny cake and grits.", :url "https://en.wikipedia.org/wiki/Bahamian_cuisine", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "bhs.dish.souse", :name "Souse", :country "BHS", :kind :dish, :summary "Bahamian chicken-based soup made with lime, potatoes and pepper.", :url "https://en.wikipedia.org/wiki/Bahamian_cuisine", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "bhs.dish.guava-duff", :name "Guava duff", :country "BHS", :kind :dish, :summary "Bahamian dessert dish made with fruit, especially guava, in a dough.", :url "https://en.wikipedia.org/wiki/Duff_(dessert)", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "bhs.beverage.switcha", :name "Switcha", :country "BHS", :kind :beverage, :summary "Bahamian name for limeade, a lime-and-sugar drink; in the Bahamas and Turks and Caicos limeade is often referred to as switcha, also the name of a commercial Bahamian brand.", :url "https://en.wikipedia.org/wiki/Limeade", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "bhs.beverage.sky-juice", :name "Sky juice", :country "BHS", :kind :beverage, :summary "Bahamian alcoholic drink combining coconut water or coconut milk, condensed or evaporated milk, and gin (or rum), optionally flavoured with nutmeg and cinnamon.", :url "https://en.wikipedia.org/wiki/Sky_juice", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "bhs.festival.junkanoo", :name "Junkanoo", :country "BHS", :kind :festival, :summary "Masquerade festival of drumming, dance and parades originating during the period of African chattel slavery; in the Bahamas it dates to the 1700s, with major parades on Boxing Day and New Year's Day.", :url "https://en.wikipedia.org/wiki/Junkanoo", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+]
